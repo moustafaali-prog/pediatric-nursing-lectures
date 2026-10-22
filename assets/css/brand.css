@@ -1,0 +1,21 @@
+/* brand: Pediatric Nursing */
+:root{
+  --accent:#4a4aa8;
+  --accent-2:#7b6ff0;
+  --accent-soft:#ecebfb;
+  --gold:#8a5a20;
+  --paper:#f7f7fb;
+  --brand-gradient:linear-gradient(135deg,#4a4aa8 0%,#7b6ff0 100%);
+  --brand-glow:#4a4aa822;
+}
+html[data-theme="dark"]{
+  --accent:#a5a0f8;
+  --accent-2:#c9c3ff;
+  --accent-soft:#1a1930;
+  --gold:#d9b478;
+  --paper:#0b0b12;
+  --surface:#13131d;
+  --line:#24243a;
+  --brand-gradient:linear-gradient(135deg,#8b86f7 0%,#c4b8ff 100%);
+  --brand-glow:#a5a0f826;
+}
